@@ -1,0 +1,121 @@
+/* *{box-sizing: border-box;}
+body{
+    background-color: rgb(93, 9, 202);
+}
+.container{
+    width: 90%;
+    height: 74%;
+    display: block;
+    position: absolute;
+    top:13% ;
+    left: 5%;
+    background-color: white;
+    color: black;
+    border-radius: 0.8%;
+}
+#stoptext{
+    color:rgb(146, 141, 141);
+    text-align: center;
+    text-decoration: none;
+    height: 10%;
+}
+#item1{
+    position:absolute;
+    top: 20%;
+    left: 10%;
+    font-weight: bold;
+}
+#second{
+    font-size: 10rem;
+}
+#ten{
+    font-size: 2rem;
+}
+#btn-stop{
+    left: 11%;
+}
+#btn-reset{
+    left: 22%;
+}
+#btn-start, #btn-stop, #btn-reset{
+    position: absolute;
+    top: 87%;
+    width: 10%;
+    height: auto;
+    margin: 2px;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px rgb(93, 102, 151);
+    border-color: rgb(93, 9, 202);
+}
+#btn-start:hover, #btn-stop:hover, #btn-reset:hover{
+    background-color: rgb(93, 9, 202);
+    color: white;
+    cursor:pointer;
+}
+#myBar{
+    position: absolute;
+    top:83%;
+    width: 100%;
+} */
+*{box-sizing: border-box;}
+        body{
+            background-color: rgb(93, 9, 202);
+        }
+        .container{
+            width: 90%;
+            height: 74%;
+            display: block;
+            position: absolute;
+            top:13% ;
+            left: 5%;
+            background-color: white;
+            color: black;
+            border-radius: 0.8%;
+        }
+      #stoptext{
+            color:rgb(146, 141, 141);
+            text-align: center;
+            text-decoration: none;
+            height: 10%;
+        }
+        #item1{
+            position:absolute;
+            top: 20%;
+            left: 10%;
+            font-weight: bold;
+        }
+        #second{
+            font-size: 10rem;
+        }
+        #ten{
+            font-size: 2rem;
+        }
+        #btn-stop{
+            left: 6rem;
+        }
+        #btn-reset{
+            left: 12rem;
+        }
+        #btn-start, #btn-stop, #btn-reset{
+            position: absolute;
+            top: 87%;
+            width: 5.5rem;
+            height: auto;
+            margin: 2px;
+            padding: 10px;
+            font-size: 1rem;
+            box-shadow: 3px 3px 5px rgb(93, 102, 151);
+            border-color: rgb(93, 9, 202);
+        }
+        #btn-start:hover, #btn-stop:hover, #btn-reset:hover{
+            background-color: rgb(93, 9, 202);
+            color: white;
+            cursor:pointer;
+        }
+        #myBar{
+            position: absolute;
+            top:83%;
+            width: 100%;
+        }
